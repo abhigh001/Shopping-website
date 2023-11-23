@@ -1,0 +1,242 @@
+$yellow: #e6c744;
+$white: #ffffff;
+$black: #000000;
+$grey: #c2c8da;
+
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+// header section start
+.header-section {
+  .brand-logo {
+    color: $black;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 1.2px;
+  }
+  .my-navbar {
+    margin-left: auto;
+    a {
+      color: #242323;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.375rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: 0.22px;
+      text-transform: uppercase;
+    }
+  }
+  .cst-btn {
+    padding: 13px 22px 17px;
+    border-radius: 7px;
+  }
+}
+
+// header section start
+
+// slider section strat
+
+// slider section end
+
+// brands section start
+.brands-section {
+  .brands {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+// brands section start
+
+// new arrivals section strat
+.new-arrivals-section {
+  h2 {
+    color: $black;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 900;
+    letter-spacing: 2.88px;
+  }
+  .item-card {
+    img {
+      max-width: 100%;
+    }
+    .card-title {
+      color: #191919;
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: -1.28px;
+    }
+    .card-text {
+      color: #7f7f7f;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: -0.96px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
+// new arrivals section end
+
+// sale banner section start
+.sale-banner-section {
+  .sale-banner {
+    img {
+      max-width: 100%;
+    }
+  }
+}
+// sale banner section end
+
+// vouchers section start
+.vouchers-section {
+  .vouchers {
+    text-align: center;
+
+    h2 {
+      color: $black;
+      font-family: "Poppins", sans-serif;
+      font-size: 3rem;
+      font-style: normal;
+      font-weight: 900;
+      letter-spacing: 2.88px;
+    }
+    p {
+      color: #7c7c7c;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.5rem;
+      font-style: normal;
+      font-weight: 500;
+      letter-spacing: -0.96px;
+    }
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+// community section start
+.community-section {
+  background-color: $yellow;
+  .subscribe {
+    h1 {
+      color: $white;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 3.438rem;
+      font-style: normal;
+      font-weight: 900;
+      letter-spacing: 1.65px;
+      padding-top: 140px;
+    }
+    p {
+      color: $white;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 400;
+      letter-spacing: 0.96px;
+      padding-top: 37px;
+      padding-bottom: 60px;
+    }
+    form {
+      text-align: center;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      padding-bottom: 140px;
+      input {
+        width: 40%;
+        border: none;
+        flex-shrink: 0;
+        border-radius: 8px;
+
+        color: #767676;
+        font-family: "Poppins", sans-serif;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.72px;
+      }
+
+      button {
+        color: $white;
+        font-family: "Poppins", sans-serif;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 500;
+        letter-spacing: 0.99px;
+        text-transform: capitalize;
+        background-color: $black;
+        border-radius: 8px;
+        margin-left: -135px;
+      }
+    }
+  }
+}
+// community section end
+
+// footer-section start
+.footer-section {
+  background-color: $black;
+  color: $grey;
+  padding: 100px 0;
+  .my-logo {
+    display: inline-block;
+    margin-top: -15px;
+    text-align: center;
+    color: $white;
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 1.2px;
+  }
+  p {
+    color: #8e8e8e;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+  }
+  .info-social {
+    i {
+      color: $black;
+      background-color: $yellow;
+      font-size: large;
+      padding: 1rem;
+      margin-right: 0.5rem;
+      border-radius: 10px;
+    }
+  }
+  h6 {
+    color: $grey;
+    font-size: 1.375rem;
+  }
+  .footer-links {
+    color: #8e8e8e;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.48px;
+  }
+}
+// footer-section end
+@import "responsive";

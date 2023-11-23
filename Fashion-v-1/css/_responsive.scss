@@ -1,0 +1,99 @@
+/* Smartphones (portrait and landscape) ---------- */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  
+}
+/* Smartphones (portrait) ---------- */
+@media screen and (max-width: 320px) {
+  /* styles */
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (min-width: 321px) {
+  /* styles */
+}
+/* Smartphones (landscape) ---------- */
+@media screen and (max-width: 480px) {
+  // community section start
+  .community-section {
+    .subscribe {
+      input {
+        font-size: 1rem !important;
+        width: 100% !important;
+      }
+    }
+  }
+  // community section start
+}
+/* Tablets, iPads (portrait and landscape) ---------- */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  // new arrivals section strat
+  .new-arrivals-section {
+    .item-card {
+      img {
+        max-width: 100%;
+      }
+      .card-title {
+        font-size: 1.4rem;
+      }
+      .card-text {
+        font-size: 1rem;
+      }
+    }
+  }
+  // new arrivals section end
+
+  // vouchers section start
+  .vouchers-section {
+    .vouchers {
+      h2 {
+        font-size: 2rem;
+      }
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  // vouchers section end
+
+  // community section start
+  .community-section {
+    .subscribe {
+      input {
+        width: 70% !important;
+      }
+    }
+  }
+  // community section start
+}
+/* Tablets, iPads (portrait) ---------- */
+@media screen and (min-width: 768px) {
+}
+/* Tablets, iPads (landscape) ---------- */
+@media screen and (min-width: 1024px) {
+  // vouchers section start
+  .vouchers-section {
+    .vouchers {
+      padding-top: 150px;
+    }
+  }
+  // vouchers section end
+}
+/* Desktops and laptops ---------- */
+@media screen and (min-width: 1224px) {
+  // slider section strat
+  .slider-section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  // slider section end
+  // vouchers section start
+  .vouchers-section {
+    .vouchers {
+      padding-top: 220px;
+    }
+  }
+  // vouchers section end
+}
+/* Large screens ---------- */
+@media screen and (min-width: 1824px) {
+  /* styles */
+}
